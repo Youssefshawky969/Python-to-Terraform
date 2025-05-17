@@ -15,7 +15,7 @@ The generated file can be used to replicate or manage VPC resources through Terr
 1. Clone the repository:
 
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/Youssefshawky969/Python-to-Terraform.git
     cd project/
     ```
 
