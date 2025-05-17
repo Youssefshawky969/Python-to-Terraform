@@ -43,7 +43,7 @@ project/
 ├── utils/
 │ ├── function.py # VPC fetching logic
 │ └── function2.py # Terraform generation logic
-├── terraform/
+├── terraform/ # Generated Terraform files directory
 │ └── vpc.tf # Generated Terraform file
 ├── main.py # Main entry point
 └── README.md # Project documentation
