@@ -3,14 +3,14 @@
 This tool generates Terraform configuration files for AWS VPCs by fetching VPC data using Boto3. 
 The generated file can be used to replicate or manage VPC resources through Terraform.
 
-## 📦 Dependencies
+##  Dependencies
 
 - Python 3.11+
 - Boto3
 - Black (optional for formatting)
 - Pylint (optional for linting)
 
-## ✅ Usage
+##  Usage
 
 1. Clone the repository:
 
@@ -37,7 +37,7 @@ The generated file can be used to replicate or manage VPC resources through Terr
     python main.py
     ```
 
-## 🛠️ Project Structure
+##  Project Structure
 ```
 project/
 ├── utils/
