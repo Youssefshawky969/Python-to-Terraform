@@ -16,7 +16,7 @@ The generated file can be used to replicate or manage VPC resources through Terr
 
     ```bash
     git clone https://github.com/Youssefshawky969/Python-to-Terraform.git
-    cd project/
+    cd python-to-terraform/
     ```
 
 2. Install the dependencies:
@@ -39,7 +39,7 @@ The generated file can be used to replicate or manage VPC resources through Terr
 
 ##  Project Structure
 ```
-project/
+python-to-terraform/
 ├── utils/
 │ ├── function.py       # VPC fetching logic
 │ └── function2.py      # Terraform generation logic
