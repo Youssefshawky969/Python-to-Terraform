@@ -41,12 +41,12 @@ The generated file can be used to replicate or manage VPC resources through Terr
 ```
 project/
 ├── utils/
-│ ├── function.py       # VPC fetching logic
-│ └── function2.py      # Terraform generation logic
+│ ├── vpc_fetcher                # VPC fetching logic
+│ └── terraform_generator        # Terraform generation logic
 ├── terraform/
-│ └── vpc.tf            # Generated Terraform file
-├── main.py             # Main entry point
-└── README.md           # Project documentation
+│ └── vpc.tf                     # Generated Terraform file
+├── main.py                      # Main entry point
+└── README.md                    # Project documentation
 ```
 
 If VPCs are found, a Terraform file will be generated at `terraform/vpc.tf`.
